@@ -67,15 +67,23 @@ export default class Dashboard extends Component {
 
   render() {
     return (
-      <div>
+      <div data-testid="dashboard">
         <Display
           strikeCount={this.state.strikeCount}
           ballCount={this.state.ballCount}
         />
-        <button onClick={this.strike}>Strike</button>
-        <button onClick={this.ball}>Ball</button>
-        <button onClick={this.hit}>Hit</button>
-        <button onClick={this.foul}>Foul</button>
+        <button data-testid="strike-button" onClick={this.strike}>
+          Strike
+        </button>
+        <button data-testid="ball-button" onClick={this.ball}>
+          Ball
+        </button>
+        <button data-testid="hit-button" onClick={this.hit}>
+          Hit
+        </button>
+        <button data-testid="foul-button" onClick={this.foul}>
+          Foul
+        </button>
       </div>
     );
   }

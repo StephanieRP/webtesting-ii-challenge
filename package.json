@@ -1,0 +1,10 @@
+{
+  "name": "webtesting-ii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/StephanieRP/webtesting-ii-challenge.git",
+  "license": "MIT",
+  "devDependencies": {
+    "react-testing-library": "^7.0.0"
+  }
+}
